@@ -4,3 +4,13 @@ In the second method for a single classification tree, a perceptron is used whic
 no test on whether the data itself is linearly separable(2). That means a fixed number of iterations must be used in order to terminate this tree formation. This method produces a smaller tree, but training is ‘more expensive’(3).
 After providing their readers with the main obstacles of the two types of decision trees, the authors present their solution: better accuracy with more trees. In running their experiments with random feature subspaces and different numbers of trees, the authors find a direct relationship between number of trees and accuracy.
 In our results we come to the same conclusion. Overall, as the number of trees increases, so too does the accuracy of the nidek. However there is one major caveat: time. More trees increases the time it takes to train the model. Furthermore, as the authors found in their own results, the model reaches a limit where the number of trees no longer improves the accuracy of the model.
+
+
+
+To Run File:
+
+Install Jupyter Notebook: If you haven't installed Jupyter Notebook on your computer, you can do so by following the instructions on their website: https://jupyter.org/install
+Open Jupyter Notebook: Once you have installed Jupyter Notebook, open it by typing jupyter notebook in your terminal or command prompt.
+Navigate to the directory containing the .ipynb file: In Jupyter Notebook, navigate to the directory where the .ipynb file is located.
+Open the .ipynb file: Click on the .ipynb file to open it in Jupyter Notebook.
+Run the code: You can run the code in the .ipynb file by clicking on the "Run" button or by pressing "Shift + Enter" on your keyboard. You can also run all the code in the notebook by clicking on "Cell" in the menu bar, then "Run All."
